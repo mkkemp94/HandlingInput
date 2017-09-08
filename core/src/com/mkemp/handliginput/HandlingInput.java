@@ -41,6 +41,14 @@ public class HandlingInput extends ApplicationAdapter {
 			else
 				sprite.translateX(10f);
 		}
+		if (Gdx.input.isButtonPressed(Input.Buttons.LEFT)) {
+			sprite.setPosition(Gdx.input.getX() - sprite.getWidth()/2,
+					Gdx.graphics.getHeight() - Gdx.input.getY() - sprite.getHeight()/2);
+		}
+		if (Gdx.input.isButtonPressed(Input.Buttons.RIGHT)) {
+			sprite.setPosition(Gdx.graphics.getWidth()/2 - sprite.getWidth()/2,
+					Gdx.graphics.getHeight() - Gdx.input.getY() - sprite.getHeight()/2);
+		}
 
 		batch.begin();
 		sprite.draw(batch);

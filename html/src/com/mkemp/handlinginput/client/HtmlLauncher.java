@@ -1,9 +1,9 @@
-package com.mkemp.handliginput.client;
+package com.mkemp.handlinginput.client;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
-import com.mkemp.handliginput.HandlingInput;
+import com.mkemp.handlinginput.HandlingInput;
 
 public class HtmlLauncher extends GwtApplication {
 

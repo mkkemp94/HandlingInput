@@ -1,12 +1,12 @@
-package com.mkemp.handliginput.desktop;
+package com.mkemp.handlinginput.desktop;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
-import com.mkemp.handliginput.HandlingInput;
+import com.mkemp.handlinginput.InputDemo;
 
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
-		new LwjglApplication(new HandlingInput(), config);
+		new LwjglApplication(new InputDemo(), config);
 	}
 }

@@ -1,4 +1,4 @@
-package com.mkemp.handliginput;
+package com.mkemp.handlinginput;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;

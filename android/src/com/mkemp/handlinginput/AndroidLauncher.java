@@ -1,10 +1,9 @@
-package com.mkemp.handliginput;
+package com.mkemp.handlinginput;
 
 import android.os.Bundle;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
-import com.mkemp.handliginput.HandlingInput;
 
 public class AndroidLauncher extends AndroidApplication {
 	@Override
